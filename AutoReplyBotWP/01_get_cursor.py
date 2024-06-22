@@ -7,5 +7,5 @@ while True:
     # Whatsapp -> 901 649
     # WP 1st Chat - > 212 411
     # WP Text Select -> 615 217 to 1870 904
-    # Deselct Text -> 591 321
+    # Deselect Text -> 591 321
     # Wp text box -> 873 979
