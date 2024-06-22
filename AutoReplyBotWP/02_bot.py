@@ -1,11 +1,13 @@
 import pyautogui
 import time
 import pyperclip
-from openai import OpenAI
+'from openai import OpenAI'
 
+'''
 client = OpenAI(
     api_key="OPEN_API_KEY"
 )
+'''
 
 # Function to perform the sequence of actions
 def Perform_actions():
@@ -39,6 +41,7 @@ def Perform_actions():
 copied_text = Perform_actions()
 print(f"Copied Text: {copied_text}")
 
+'''
 completion = client.chat.completions.create(
     model="OPENAI_MODEL",
     messages=[
@@ -49,7 +52,11 @@ completion = client.chat.completions.create(
 )
 
 response = completion.choices[0].message.content
+'''
 
+# Write you own code taking reference from the above
+
+'''
 def Enter_text():  
     pyautogui.click(873, 979)
     time.sleep(1)  # wait for 1 second
@@ -64,3 +71,4 @@ def Enter_text():
     return response
 text = Enter_text()
 print(f"Text: {text}")
+'''

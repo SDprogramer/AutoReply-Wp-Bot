@@ -1,10 +1,13 @@
 # DEMO
 
+'''
 from openai import OpenAI
+
 
 client = OpenAI(
     api_key="OPEN_API_KEY"
 )
+
 
 completion = client.chat.completions.create(
     model="OPENAI_MODEL",
@@ -16,3 +19,4 @@ completion = client.chat.completions.create(
 )
 
 response = completion.choices[0].message.content
+'''
