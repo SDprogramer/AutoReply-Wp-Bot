@@ -1,22 +1,21 @@
-# DEMO
+# # DEMO
 
-'''
-from openai import OpenAI
-
-
-client = OpenAI(
-    api_key="OPEN_API_KEY"
-)
+# from openai import OpenAI
 
 
-completion = client.chat.completions.create(
-    model="OPENAI_MODEL",
-    messages=[
-        {"role": "system", "content": "You are a person named Soumyadeep who speaks hindi english and bengali all 3 languages. "
-         "He is from India and he is a coder. You analyze chat history and respond like soumyadeep"},
-        {"role": "user", "Content": "generate"}
-    ]
-)
+# # pip install openai
+# # if you saved the key under a different environment variable name, you can do something like:
+# client = OpenAI(
+#    api_key="Your Api Key"
+# )
 
-response = completion.choices[0].message.content
-'''
+
+# completion = client.chat.completions.create(
+#   model="gpt-3.5-turbo",
+#   messages=[
+#     {"role": "system", "content": "You are a person named Soumyadeep and you speak Hindi Bengali aand English as well. He is from India and is a coder. You analyse chat history and respond like Soumyadeep"},
+#     {"role": "user", "content": ""}
+#   ]
+# )
+
+# print(completion.choices[0].message.content)
